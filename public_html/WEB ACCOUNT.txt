@@ -1,0 +1,2 @@
+FTP USERNAME: a1220924
+HOSTNAME: http://kinau.webatu.com
