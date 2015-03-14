@@ -1,7 +1,7 @@
 
 .container{
     width: 960px;
-    min-height: 1200px;
+    min-height: 600px;
     margin: 0 auto;
     top: 20px;
     background-color: #ffffff;
@@ -10,7 +10,7 @@
 .content{
     width: 940px;
     margin: 0 auto;
-    min-height: 1000px;
+    min-height: 600px;
     padding-top: 20px;
 }
 h1{
@@ -56,19 +56,63 @@ span{
     background-color: #4076ab;
 }
 body{
-  background-color: #e6e7e9;
-   // background-image:url('../images/bg.png');
+    background-color: #e6e7e9;
+    // background-image:url('../images/bg.png');
 }
 .separator{
     height: 10px;
 }
+.sidebar-container{
+    width: 269px;
+    min-height: 600px;
+    display: block;
+    float: left;
+}
+#separator{
+    width: 5px;
+    min-height: 600px;
+    display: block;
+    float: left;
+}
+.main-content{
+    width: 666px;
+    //background-color: red;
+    //border: 1px solid black;
+    min-height: 420px;
+    display: block;
+    float: left;
+    border-bottom: 2px solid #e6e7e9;
+}
+p1{
+    font-size: 50px;
+    font-weight:  bold;
+    display: block;
+}
+p2{
+    font-style: italic;
+    display: block;
+}
+p2 span{
+    text-decoration: underline;
+}
+p3{
+    font-size: large;
+}
+p3 a:hover{
+    color: #ff0000;
+}
+.article{
+    width: 666px;
+    min-height: 500px;
+    display: block;
+    border-bottom: 2px solid #e6e7e9;
+    float: left;
+}
 .sidebar{
-    width: 200px;
+    width: 269px;
     height: 200px;
     background-color: #e6e7e9;
     display:block;
-    float: left;
-     //border: 1px solid black;
 }
 .sidebar ul{
     padding: 0px;
@@ -85,22 +129,19 @@ body{
     color: #de2d3a;
 }
 .sidebar2{
-    width: 200px;
-    height: 200px;
+    width: 269px;
+    height: 100px;
     background-color: #e6e7e9;
-    display:block;
 }
 .sidebar3{
-    width: 200px;
-    height: 200px;
+    width: 269px;
+    height: 100px;
     background-color: #e6e7e9;
-    display:block;
 }
 .sidebar4{
-    width: 200px;
+    width: 269px;
     height: 150px;
     background-color: #e6e7e9;
-    display:block;
 }
 .sidebar4 ul{
     padding: 0px;
@@ -118,16 +159,63 @@ body{
 }
 .footer{
     width: 940px;
-    height: 300px;
+    height: 200px;
     background-color: #de2d3a;
     //border: 1px solid black;
+    position: relative;
+    clear: both;
 }
 .footerin{
-    width: 900px;
-    height: 200px;
+    width: 940px;
+    height: 150px;
     //border: 1px solid black;
     margin: 0 auto;
     background-color: #e6e7e9;
+    position: absolute;
+    margin-top: 20px;
+    //padding-top: 20px;
+}
+.clear{
+    width: 313px;
+    height: 150px;
+    display: block;
+    float: left;
+}
+.clear ul{
+    list-style: none;
+}
+.clear ul li{
+    border-bottom: 1px dashed #8b6666;
+    height: 30px;
+}
+.middle{
+    width: 314px;
+    height: 150px;
+    display: block;
+    float: left;
+}
+.middle ul{
+    list-style: none;
+}
+.middle ul li{
+    border-bottom: 1px dashed #8b6666;
+    height: 30px;
+}
+.end{
+    width: 313px;
+    height: 150px;
+    display: block;
+    float: left;
+}
+.end ul{
+    list-style: none;
+}
+.end ul li{
+    border-bottom: 1px dashed #8b6666;
+    height: 30px;
+}
+ul li a:hover{
+    color:#a57866;
 }
 .lower{
     width: 400px;
@@ -169,9 +257,9 @@ body{
     border-left: 4px solid #8ac007;
 }
 .button{
-    width: 150px;
+    width: 300px;
     height: 40px;
-    //border: 1px solid black;
+    border: 1px solid black;
     border-radius: 3px;
     bottom: 20px;
     padding-left: 30px;
@@ -201,7 +289,7 @@ body{
     color: #8ac007;
     border-radius: 3px;
     border: 1px solid #8ac007;
-    
+
 }
 .forms {
     background-image:url('../images/bg.png');
